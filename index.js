@@ -9,6 +9,6 @@ return array
 function johnLennonFacts(facts) {
   var newFacts = []
   while (newFacts.length < 4) {
-    facts.push(`${facts} !!!`);
+    newFacts.push(`${facts} !!!`);
   }
 }
