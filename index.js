@@ -7,8 +7,9 @@ return array
 }
 
 function johnLennonFacts(facts) {
-  var newFacts
-  while (facts.length < 4) {
-    newFacts.push(`${facts} !!!`);
+  var count = facts.length
+  while (count > 1) {
+    facts.push(`${facts} !!!`);
+    count--
   }
 }
