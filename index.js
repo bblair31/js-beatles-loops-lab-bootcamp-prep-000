@@ -8,9 +8,10 @@ return array
 
 function johnLennonFacts(facts) {
   var i = 4
+  var array = []
   while (i > 0) {
-    facts.push("!");
+    array.push(facts[i] + "!!!");
     i--
   }
-  return facts
+  return array
 }
